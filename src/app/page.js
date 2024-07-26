@@ -185,20 +185,12 @@ function about() {
                       documentation for asset administration, personalized staff
                       goals and evaluations, cost and budget generation, news
                       broadcasting, product store integration, and streamlined
-                      automations. In mi view of the future everyone has its
-                      personal website, my contribution so far to &nbsp;
-                      <a
-                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="#projects"
-                      >
-                        Landings
-                      </a>
+                      automations.
                     </p>
                     <p>
                       Passionate about exploring the potential of Web3 and
-                      blockchain technologies, I believe they will revolutionize
-                      organizational transparency, fostering interconnected and
-                      accountable societies.
+                      blockchain technologies,for organizational transparency,
+                      fostering interconnected and accountable societies.
                       <span className="group/korok inline-flex  lg:font-medium lg:text-slate-200">
                         <span className="sr-only">BitCoin</span>
                         <span
@@ -724,14 +716,12 @@ function about() {
                             </h3>
                             <p className="mt-2 text-sm leading-normal">
                               Led a team of 10 in the successful completion of a
-                              varius projects, delivering on time and within
+                              several projects, delivering on time and within
                               budget. Developed project plans, timelines, and
                               budgets, ensuring alignment with business
-                              objectives. Coordinated with stakeholders to
-                              define project scope and deliverables, enhancing
-                              project clarity and focus. Utilized project
-                              management software to monitor progress and manage
-                              resources efficiently.
+                              objectives. Coordinated with stakeholders.
+                              Utilized project management software to monitor
+                              progress and manage resources efficiently.
                             </p>
                           </div>
                         </div>
