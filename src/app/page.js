@@ -334,7 +334,7 @@ function about() {
                               <li className="mr-4">
                                 <a
                                   className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                                  href="https://joinery.cap.mettalecode.site/"
+                                  href="https://maderafi.mettalecode.site/"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
@@ -374,7 +374,7 @@ function about() {
                               <li className="mr-4">
                                 <a
                                   className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                                  href="http://dasmeal.cap.mettalecode.site/"
+                                  href="http://delicipes.mettalecode.site/"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
@@ -947,17 +947,17 @@ function about() {
                         </div>
                       </li>
                       <li className="mb-12">
-                        <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                          <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                          <div className="z-10 sm:order-2 sm:col-span-6">
-                            <h3>
-                              <a
-                                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://pensionescolombianos.com"
-                                target="_blank"
-                                rel="noreferrer"
-                                aria-label="Pensiones Colombianos"
-                              >
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          href="https://pensionescolombianos.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label="Pensiones Colombianos"
+                        >
+                          <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                            <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                            <div className="z-10 sm:order-2 sm:col-span-6">
+                              <h3>
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
                                   Pensiones Colombianos{""}
@@ -977,14 +977,13 @@ function about() {
                                     </svg>
                                   </span>
                                 </span>
-                              </a>
-                            </h3>
-                            <p className="mt-2 text-sm leading-normal">
-                              Creating a web application to attract clients,
-                              collect their data, and host past legal sentences
-                              in PDF
-                            </p>
-                            {/* <a
+                              </h3>
+                              <p className="mt-2 text-sm leading-normal">
+                                Creating a web application to attract clients,
+                                collect their data, and host past legal
+                                sentences in PDF
+                              </p>
+                              {/* <a
                               className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
                               href="https://joinery.cap.mettalecode.site/"
                               target="_blank"
@@ -1006,44 +1005,45 @@ function about() {
                               </svg>
                               <span>Maderafina</span>
                             </a> */}
-                            <ul
-                              className="mt-2 flex flex-wrap"
-                              aria-label="Technologies used:"
-                            >
-                              <li className="mr-1.5 mt-2">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                  React
-                                </div>
-                              </li>
-                              <li className="mr-1.5 mt-2">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                  NextJs
-                                </div>
-                              </li>
-                              <li className="mr-1.5 mt-2">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                  MongoDB
-                                </div>
-                              </li>
-                              <li className="mr-1.5 mt-2">
-                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                  Docker
-                                </div>
-                              </li>
-                            </ul>
+                              <ul
+                                className="mt-2 flex flex-wrap"
+                                aria-label="Technologies used:"
+                              >
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    React
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    NextJs
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    MongoDB
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    Docker
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <img
+                              alt=""
+                              loading="lazy"
+                              width="200"
+                              height="48"
+                              decoding="async"
+                              data-nimg="1"
+                              className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                              style={{ color: "transparent" }}
+                              src="/pensiones.png"
+                            />
                           </div>
-                          <img
-                            alt=""
-                            loading="lazy"
-                            width="200"
-                            height="48"
-                            decoding="async"
-                            data-nimg="1"
-                            className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                            style={{ color: "transparent" }}
-                            src="/pensiones.png"
-                          />
-                        </div>
+                        </a>
                       </li>
                       <li className="mb-12">
                         <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
