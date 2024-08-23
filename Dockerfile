@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:20-alpine
 # RUN apk update && apk upgrade &&     apk add --no-cache git
 # ENV PORT 80
 # Create app directory

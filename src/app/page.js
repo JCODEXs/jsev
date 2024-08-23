@@ -35,11 +35,11 @@ function about() {
                     <a href="/">Juan S. Escobar</a>
                   </h1>
                   <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                    Aerospace web Engineer
+                    Aerospace & web Engineer
                   </h2>
                   <p className="mt-4 max-w-xs leading-normal">
                     I empower your ideas to grow and fly, integrating the
-                    virtual and physical realms within web development{" "}
+                    virtual and physical realms
                   </p>
                   <nav
                     className="nav hidden lg:block"
@@ -939,7 +939,7 @@ function about() {
                               height="48"
                               decoding="async"
                               data-nimg="1"
-                              className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                              className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
                               src="/Il_nostro_matrimonio (1).png"
                             />
@@ -1038,7 +1038,7 @@ function about() {
                               height="48"
                               decoding="async"
                               data-nimg="1"
-                              className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                              className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
                               src="/pensiones.png"
                             />
@@ -1129,7 +1129,7 @@ function about() {
                               height="48"
                               decoding="async"
                               data-nimg="1"
-                              className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                              className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
                               src="/maderafina.png"
                             />
