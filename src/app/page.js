@@ -941,7 +941,7 @@ function about() {
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
-                              src="/Il_nostro_matrimonio (1).png"
+                              src="https://utfs.io/f/3nPJ2rcd2SU4S7mGzNhWCYQwmdOVEp4gAlaG6BfKxLjTuHqe"
                             />
                           </div>
                         </a>
@@ -1040,7 +1040,7 @@ function about() {
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
-                              src="/pensiones.png"
+                              src="https://utfs.io/f/3nPJ2rcd2SU4zPqFakbEcRKy5wDrVlNb8MoU3TCxkun0O1aI"
                             />
                           </div>
                         </a>
@@ -1131,7 +1131,7 @@ function about() {
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
-                              src="/maderafina.png"
+                              src="https://utfs.io/f/3nPJ2rcd2SU4ka0ZUHEi8zpJMrG27sEKaPIdje6bnqFLy3Q4"
                             />
                           </div>
                         </a>
