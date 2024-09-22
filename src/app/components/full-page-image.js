@@ -1,6 +1,32 @@
 export default async function FullPageImageView({ id }) {
   const images = [
     {
+      id: 31,
+      url: "https://utfs.io/f/03762607-47de-4f5c-9a47-08dbe630ce41-a2g02k.png",
+      name: "Imperial Studio",
+    },
+    {
+      id: 32,
+      url: "https://utfs.io/f/5f209717-885e-4f23-9710-2745e9fd8c87-yadea5.png",
+      name: "Imperial Studio",
+    },
+
+    {
+      id: 33,
+      url: "https://utfs.io/f/4e217ec2-7382-4aec-b458-e9196b0ae36a-vn29ne.png",
+      name: "Imperial Studio",
+    },
+    {
+      id: 34,
+      url: "https://utfs.io/f/d1cff984-7b81-4a5b-8e70-b730795a87c0-j4gxw2.png",
+      name: "Quotter",
+    },
+    {
+      id: 34,
+      url: "https://utfs.io/f/af69f868-8e2b-41d1-b33b-f39aed3ff3aa-qwbr1o.png",
+      name: "Delicipes",
+    },
+    {
       id: 1,
       url: "https://utfs.io/f/9a6e54e0-a555-47fc-b5e4-a8f1dd695612-k59w89.png",
       name: "introduccion fibra de carbono",
@@ -48,10 +74,9 @@ export default async function FullPageImageView({ id }) {
       name: "Vortices acusticos",
     },
   ];
-
   const idAsNumber = Number(id);
+  console.log(id, idAsNumber);
   const image = images.filter((image) => image.id === idAsNumber)[0];
-  console.log(image);
   return (
     <div className="flex h-full w-full">
       <div className="flex w-96 flex-grow items-start justify-center object-contain">

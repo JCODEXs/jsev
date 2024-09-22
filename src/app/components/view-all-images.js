@@ -20,15 +20,21 @@ const Dashboard = ({ images }) => {
       totalCount={images.length}
       itemContent={(index) => {
         const image = images[index];
-        // console.log("image", image);
+        console.log("image", image);
         return (
-          <div key={index} className="flex h-auto w-200px flex-row">
+          <div
+            key={index}
+            className="flex h-auto w-200px flex-row justify-center"
+          >
             <Link
               key={image.id}
               href={{ pathname: `/img/${image.id}`, query: { modal: "true" } }}
               passHref
               shallow
             >
+              <div className="text-slate-300 pt-3 border-t-4 border-t-cyan-600 justify-center text-center">
+                {image.name}
+              </div>
               <Image
                 src={image.url}
                 style={{ objectFit: "contain" }}
@@ -36,7 +42,6 @@ const Dashboard = ({ images }) => {
                 height={292}
                 alt={image.name}
               />
-              <div className="text-slate-300">{image.name}</div>
             </Link>
           </div>
         );

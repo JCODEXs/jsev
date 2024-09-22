@@ -21,8 +21,14 @@ const DashboardCertificates = ({ images }) => {
         const image = images[index];
         // console.log("image", image);
         return (
-          <div key={index} className="flex h-auto w-200px flex-row">
+          <div
+            key={index}
+            className="flex h-auto w-200px flex-row justify-center"
+          >
             <a key={image.id} href={image.url} target="_blank" rel="noreferrer">
+              <div className="text-slate-200 text-center border-t-2 border-t-cyan-700 pt-2">
+                {image.name}
+              </div>
               <Image
                 src={image.url}
                 style={{ objectFit: "contain" }}
@@ -30,7 +36,6 @@ const DashboardCertificates = ({ images }) => {
                 height={292}
                 alt={image.name}
               />
-              <div className="text-slate-200">{image.name}</div>
             </a>
           </div>
         );
