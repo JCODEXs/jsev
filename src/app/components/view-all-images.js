@@ -2,8 +2,32 @@
 import Image from "next/image";
 import { Virtuoso } from "react-virtuoso";
 import Link from "next/link";
+import { useEffect, useState, useCallback } from "react";
 
 const Dashboard = ({ images }) => {
+  // Track loaded state for each item
+  const [loaded, setLoaded] = useState({});
+
+  // Use callback to handle item load more efficiently
+  const handleItemLoaded = useCallback(
+    (index) => {
+      setLoaded((prev) => {
+        if (prev[index]) return prev; // Avoid unnecessary re-render if already loaded
+        return { ...prev, [index]: true }; // Set the specific index as loaded
+      });
+    },
+    [setLoaded]
+  );
+
+  // Load all images (execute useEffect outside of item rendering function)
+  useEffect(() => {
+    images.forEach((_, index) => {
+      if (!loaded[index]) {
+        handleItemLoaded(index);
+      }
+    });
+  }, [images, loaded, handleItemLoaded]);
+
   return (
     <Virtuoso
       style={{
@@ -14,17 +38,19 @@ const Dashboard = ({ images }) => {
         justifyContent: "center",
         alignContent: "center",
         alignItems: "center",
-
         marginLeft: "5rem",
       }}
       totalCount={images.length}
       itemContent={(index) => {
         const image = images[index];
-        console.log("image", image);
+        const isLoaded = loaded[index] || false; // Check if the item has loaded
+
         return (
           <div
             key={index}
-            className="flex h-auto w-200px flex-row justify-center"
+            className={`flex h-auto w-200px flex-row justify-center transition-opacity duration-700 delay-${
+              index * 300
+            } ${isLoaded ? "opacity-100 top-0" : "opacity-0 top-6"}`}
           >
             <Link
               key={image.id}
@@ -49,4 +75,5 @@ const Dashboard = ({ images }) => {
     />
   );
 };
+
 export default Dashboard;

@@ -24,7 +24,7 @@ function about() {
             >
               Skip to Content
             </a>
-            <div className="lg:flex lg:justify-between lg:gap-4">
+            <div className="lg:flex lg:justify-between lg:gap-4 ">
               <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                 <div>
                   <Particles
@@ -42,6 +42,19 @@ function about() {
                     I empower your ideas to grow and fly, integrating the
                     virtual and physical realms
                   </p>
+                  <div className="justify-center p-2 ml-1">
+                    <Image
+                      src={
+                        "https://utfs.io/f/3nPJ2rcd2SU4teoEtVHNEcC641I28lTU0jZKkofJyvruAbDz"
+                      }
+                      height={173}
+                      width={141}
+                      style={{
+                        borderRadius: "5px",
+                        height: 173,
+                      }}
+                    />
+                  </div>
                   <nav
                     className="nav hidden lg:block"
                     aria-label="In-page jump links"
@@ -192,64 +205,64 @@ function about() {
                       Passionate about exploring the potential of Web3 and
                       blockchain technologies,for organizational transparency,
                       fostering interconnected and accountable societies.
-                      <span className="group/korok inline-flex  lg:font-medium lg:text-slate-200">
+                      <span className="group/bitcoin inline-flex  lg:font-medium lg:text-slate-200">
                         <span className="sr-only">BitCoin</span>
                         <span
-                          className="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]"
+                          className="group-hover/bitcoin:text-orange-400 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[50ms]"
                           aria-hidden="true"
                         >
                           B
                         </span>
                         <span
-                          className="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]"
+                          className="group-hover/bitcoin:text-orange-400 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[75ms]"
                           aria-hidden="true"
                         >
                           l
                         </span>
                         <span
-                          className="group-hover/korok:text-white transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]"
+                          className="group-hover/bitcoin:text-white transition duration-75 group-hover/bitcoin:-translate-y-px delay-[100ms]"
                           aria-hidden="true"
                         >
                           o
                         </span>
                         <span
-                          className="group-hover/korok:text-white transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]"
+                          className="group-hover/bitcoin:text-white transition duration-75 group-hover/bitcoin:-translate-y-px delay-[125ms]"
                           aria-hidden="true"
                         >
                           c
                         </span>
                         <span
-                          className="group-hover/korok:text-gray-700 transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]"
+                          className="group-hover/bitcoin:text-gray-700 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[150ms]"
                           aria-hidden="true"
                         >
                           k
                         </span>
                         <span
-                          className="group-hover/korok:text-gray-700 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]"
+                          className="group-hover/bitcoin:text-gray-700 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[175ms]"
                           aria-hidden="true"
                         >
                           c
                         </span>
                         <span
-                          className="group-hover/korok:text-blue-500 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]"
+                          className="group-hover/bitcoin:text-blue-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[200ms]"
                           aria-hidden="true"
                         >
                           h
                         </span>
                         <span
-                          className="group-hover/korok:text-blue-500 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]"
+                          className="group-hover/bitcoin:text-blue-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[225ms]"
                           aria-hidden="true"
                         >
                           a
                         </span>
                         <span
-                          className="group-hover/korok:text-green-500 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]"
+                          className="group-hover/bitcoin:text-green-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[250ms]"
                           aria-hidden="true"
                         >
                           i
                         </span>
                         <span
-                          className="group-hover/korok:text-green-500 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]"
+                          className="group-hover/bitcoin:text-green-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[275ms]"
                           aria-hidden="true"
                         >
                           n
@@ -285,7 +298,7 @@ function about() {
                               <div>
                                 <a
                                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                  href="https://joinery.cap.mettalecode.site/"
+                                  href="https://joinery.cap.jsescobar.pro/"
                                   target="_blank"
                                   rel="noreferrer"
                                   aria-label="full stack in metallecode "
@@ -335,7 +348,7 @@ function about() {
                               <li className="mr-4">
                                 <a
                                   className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                                  href="https://maderafi.mettalecode.site/"
+                                  href="https://maderafi.jsescobar.pro/"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
@@ -375,7 +388,7 @@ function about() {
                               <li className="mr-4">
                                 <a
                                   className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                                  href="http://delicipes.mettalecode.site/"
+                                  href="http://delicipes.jsescobar.pro/"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
@@ -864,7 +877,7 @@ function about() {
                       <li className="mb-12">
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://delicipes.mettalecode.site/"
+                          href="https://delicipes.jsescobar.pro/"
                           target="_blank"
                           rel="noreferrer"
                           aria-label="Build a Spotify Connected App"
@@ -999,7 +1012,7 @@ function about() {
                               </p>
                               {/* <a
                               className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                              href="https://joinery.cap.mettalecode.site/"
+                              href="https://joinery.cap.jsescobar.pro/"
                               target="_blank"
                               rel="noreferrer"
                               aria-label="580 stars on GitHub"
@@ -1062,7 +1075,7 @@ function about() {
                       <li className="mb-12">
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://maderafi.mettalecode.site"
+                          href="https://maderafi.jsescobar.pro"
                           target="_blank"
                           rel="noreferrer"
                           aria-label="maderafi"
@@ -1097,7 +1110,7 @@ function about() {
                               </p>
                               {/* <a
                               className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                              href="https://maderafi.mettalecode.site"
+                              href="https://maderafi.jsescobar.pro"
                               target="_blank"
                               rel="noreferrer"
                               aria-label="Over 100,000 installs on Visual Studio Code Marketplace"
