@@ -45,13 +45,14 @@ function about() {
                   <div className="justify-center p-2 ml-1">
                     <Image
                       src={
-                        "https://utfs.io/f/3nPJ2rcd2SU4teoEtVHNEcC641I28lTU0jZKkofJyvruAbDz"
+                        "https://utfs.io/f/3nPJ2rcd2SU4VziLyXqPJSm2wUBDzhI5OlcvtbYqnrEZ7a6A"
                       }
-                      height={173}
-                      width={141}
+                      height={200}
+                      width={200}
+                      alt="juancho"
                       style={{
                         borderRadius: "5px",
-                        height: 173,
+                        height: 200,
                       }}
                     />
                   </div>
@@ -976,7 +977,7 @@ function about() {
                       <li className="mb-12">
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://pensionescolombianos.com"
+                          href="https://pensionescolombianos.co"
                           target="_blank"
                           rel="noreferrer"
                           aria-label="Pensiones Colombianos"
@@ -1144,6 +1145,11 @@ function about() {
                                 <li className="mr-1.5 mt-2">
                                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                                     Tailwind
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    stripe
                                   </div>
                                 </li>
                               </ul>
