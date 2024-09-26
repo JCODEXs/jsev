@@ -38,10 +38,6 @@ function about() {
                   <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
                     Aerospace & web Engineer
                   </h2>
-                  <p className="mt-4 max-w-xs leading-normal">
-                    I empower your ideas to grow and fly, integrating the
-                    virtual and physical realms
-                  </p>
                   <div className="justify-center p-2 ml-1">
                     <Image
                       src={
@@ -56,6 +52,10 @@ function about() {
                       }}
                     />
                   </div>
+                  <p className="mt-4 max-w-xs leading-normal">
+                    I empower your ideas to grow and fly, integrating the
+                    virtual and physical realms
+                  </p>
                   <nav
                     className="nav hidden lg:block"
                     aria-label="In-page jump links"
