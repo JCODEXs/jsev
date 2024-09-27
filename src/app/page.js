@@ -177,15 +177,17 @@ function about() {
                   </div>
                   <div>
                     <p className="mb-4">
-                      Results-oriented FullStack NextJs Developer and
-                      accomplished Master of Science in Mechanical Engineering,
-                      poised to elevate my career in software development. With
-                      over 8 years of experience in industrial and academic
-                      sectors, I have held pivotal coordination roles in project
-                      management and research. My responsibilities encompassed
-                      the mechanical design and simulation, Acoustics nobile
-                      properties research and planing development, and
-                      implementation of{" "}
+                      Experienced full-stack software developer with a
+                      background in Mechanical Engineering where i held pivotal
+                      coordination roles in project management and research. Now
+                      over four years in the software industry. Specialized in
+                      React and Next.js development, with expertise in building
+                      robust applications, API integration, state management,
+                      and system architecture. Proven ability to design and
+                      deploy innovative applications, ensuring performance
+                      optimization, scalability, and seamless database
+                      synchronization. Bilingual in English and Spanish. here
+                      you can see some of my {""}
                       <a
                         className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                         href="#projects"
@@ -205,7 +207,7 @@ function about() {
                     <p>
                       Passionate about exploring the potential of Web3 and
                       blockchain technologies,for organizational transparency,
-                      fostering interconnected and accountable societies.
+                      fostering interconnected and accountable societies. {""}
                       <span className="group/bitcoin inline-flex  lg:font-medium lg:text-slate-200">
                         <span className="sr-only">BitCoin</span>
                         <span
@@ -339,7 +341,7 @@ function about() {
                             <p className="mt-2 text-sm leading-normal">
                               Deliver high-quality, robust production code for a
                               diverse array of projects for clients including
-                              law firms, wood forniture store, bakery, and
+                              law firms, wood furniture store, bakery, and
                               events.
                             </p>
                             <ul
