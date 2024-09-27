@@ -299,7 +299,7 @@ function about() {
                               <div>
                                 <a
                                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                  href="https://joinery.cap.jsescobar.pro/"
+                                  href="/archive"
                                   target="_blank"
                                   rel="noreferrer"
                                   aria-label="full stack in metallecode "
