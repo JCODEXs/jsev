@@ -1078,7 +1078,7 @@ function about() {
                       <li className="mb-12">
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://maderafi.jsescobar.pro"
+                          href="https://colormetta.jsescobar.pro"
                           target="_blank"
                           rel="noreferrer"
                           aria-label="maderafi"
@@ -1089,7 +1089,7 @@ function about() {
                               <h3>
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
-                                  Maderafina
+                                  Color Metta
                                   <span className="inline-block">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1108,8 +1108,14 @@ function about() {
                                 </span>
                               </h3>
                               <p className="mt-2 text-sm leading-normal">
-                                Landing page used to show products and prices of
-                                wood forniture
+                                A dynamic landing page designed for a web
+                                development company, showcasing tailored service
+                                packages, from beginner to enterprise-level
+                                plans, making it easy to find the right fit. A
+                                streamlined contact form invites potential
+                                clients to connect, while a visually cohesive
+                                design ensures a seamless and engaging browsing
+                                experience.
                               </p>
                               {/* <a
                               className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
@@ -1136,7 +1142,7 @@ function about() {
                               >
                                 <li className="mr-1.5 mt-2">
                                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                    ThreeJs
+                                    Once-ui
                                   </div>
                                 </li>
                                 <li className="mr-1.5 mt-2">
@@ -1151,7 +1157,7 @@ function about() {
                                 </li>
                                 <li className="mr-1.5 mt-2">
                                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                    stripe
+                                    Zod
                                   </div>
                                 </li>
                               </ul>
@@ -1166,7 +1172,7 @@ function about() {
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
-                              src="https://utfs.io/f/3nPJ2rcd2SU4ka0ZUHEi8zpJMrG27sEKaPIdje6bnqFLy3Q4"
+                              src="https://utfs.io/f/3nPJ2rcd2SU4ZNsERQfPn2O8frmlCbB7M5UNEGFYg1HhxjZy"
                             />
                           </div>
                         </a>
