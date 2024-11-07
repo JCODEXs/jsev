@@ -1,11 +1,18 @@
 "use client";
 import Image from "next/image";
 import Particles from "../app/components/particles";
-import React from "react";
+import React, { useState } from "react";
 
 function about() {
   // const maskImage = useMotionTemplate`radial-gradient(240px at ${mouseX}px ${mouseY}px, white, transparent)`;
   // const style = { maskImage, WebkitMaskImage: maskImage };
+  const [loadedCount, setLoadedCount] = useState(0);
+
+  const handleImageLoad = () => {
+    setLoadedCount((prevCount) => prevCount + 1);
+  };
+
+  const allImagesLoaded = loadedCount === 4;
   return (
     <primal className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
       <div id="__next">
@@ -27,10 +34,12 @@ function about() {
             <div className="lg:flex lg:justify-between lg:gap-4 ">
               <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                 <div>
-                  <Particles
-                    className="absolute inset-0 -z-10 animate-fade-in"
-                    quantity={100}
-                  />
+                  {allImagesLoaded && (
+                    <Particles
+                      className="absolute inset-0 -z-10 animate-fade-in"
+                      quantity={100}
+                    />
+                  )}
 
                   <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                     <a href="/">Juan S. Escobar</a>
@@ -46,6 +55,7 @@ function about() {
                       height={200}
                       width={200}
                       alt="juancho"
+                      onLoadingComplete={handleImageLoad}
                       style={{
                         borderRadius: "5px",
                         height: 200,
@@ -310,7 +320,7 @@ function about() {
                                   <span>
                                     Director {""}
                                     <span className="inline-block">
-                                      Metallecode
+                                      ColorMetta
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20"
@@ -968,6 +978,7 @@ function about() {
                               width="200"
                               height="48"
                               decoding="async"
+                              onLoadingComplete={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
@@ -1067,6 +1078,7 @@ function about() {
                               width="200"
                               height="48"
                               decoding="async"
+                              onLoadingComplete={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
@@ -1169,6 +1181,7 @@ function about() {
                               width="200"
                               height="48"
                               decoding="async"
+                              onLoadingComplete={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
