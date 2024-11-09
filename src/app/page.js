@@ -55,7 +55,7 @@ function about() {
                       height={200}
                       width={200}
                       alt="juancho"
-                      onLoadingComplete={handleImageLoad}
+                      onLoad={handleImageLoad}
                       style={{
                         borderRadius: "5px",
                         height: 200,
@@ -63,8 +63,8 @@ function about() {
                     />
                   </div>
                   <p className="mt-4 max-w-xs leading-normal">
-                    I empower your ideas to grow and fly, integrating the
-                    virtual and physical realms
+                    I empower your ideas to soar, seamlessly blending the
+                    virtual and physical realms.
                   </p>
                   <nav
                     className="nav hidden lg:block"
@@ -187,17 +187,19 @@ function about() {
                   </div>
                   <div>
                     <p className="mb-4">
-                      Experienced full-stack software developer with a
-                      background in Mechanical Engineering where i held pivotal
-                      coordination roles in project management and research. Now
-                      over four years in the software industry. Specialized in
-                      React and Next.js development, with expertise in building
-                      robust applications, API integration, state management,
-                      and system architecture. Proven ability to design and
-                      deploy innovative applications, ensuring performance
-                      optimization, scalability, and seamless database
-                      synchronization. Bilingual in English and Spanish. here
-                      you can see some of my {""}
+                      I am an experienced full-stack software developer with a
+                      background in Mechanical Engineering, where I played key
+                      roles in project management and research coordination.
+                      With over four years in the software industry, I
+                      specialize in React and Next.js development, excelling in
+                      building robust applications, API integrations, state
+                      management, and system architecture. I have a proven track
+                      record of designing and deploying innovative applications
+                      with a focus on performance optimization, scalability, and
+                      seamless database synchronization. Bilingual in English
+                      and Spanish, I bring a unique combination of technical
+                      expertise and problem-solving skills. here you can see
+                      some of my {""}
                       <a
                         className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                         href="#projects"
@@ -209,15 +211,16 @@ function about() {
                     <p className="mb-4">
                       Focused on developing applications with advanced features,
                       including data analytics for earnings, automated legal
-                      documentation for asset administration, personalized staff
+                      documentation for asset management, personalized staff
                       goals and evaluations, cost and budget generation, news
                       broadcasting, product store integration, and streamlined
-                      automations.
+                      automation.
                     </p>
                     <p>
-                      Passionate about exploring the potential of Web3 and
-                      blockchain technologies,for organizational transparency,
-                      fostering interconnected and accountable societies. {""}
+                      I am passionate about exploring the potential of Web3 and
+                      blockchain technologies to enhance organizational
+                      transparency and foster interconnected, accountable
+                      societies. {""}
                       <span className="group/bitcoin inline-flex  lg:font-medium lg:text-slate-200">
                         <span className="sr-only">BitCoin</span>
                         <span
@@ -361,7 +364,7 @@ function about() {
                               <li className="mr-4">
                                 <a
                                   className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                                  href="https://maderafi.jsescobar.pro/"
+                                  href="https://colormetta.jsescobar.pro/"
                                   target="_blank"
                                   rel="noreferrer"
                                 >
@@ -375,7 +378,7 @@ function about() {
                                     <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
                                     <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
                                   </svg>
-                                  <span>Maderafina</span>
+                                  <span>ColorMetta</span>
                                 </a>
                               </li>
                               <li className="mr-4">
@@ -415,7 +418,7 @@ function about() {
                                     <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
                                     <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
                                   </svg>
-                                  <span>Nine Pasteleria</span>
+                                  <span>Delicipes</span>
                                 </a>
                               </li>
                             </ul>
@@ -804,7 +807,7 @@ function about() {
                         <a
                           className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
                           aria-label="View Full Résumé"
-                          href="https://jcodexs.github.io/hoja-de-vida/"
+                          href="https://utfs.io/f/3nPJ2rcd2SU4fJ1JzTgcWe2xQOfqaXNm4SwzsU6jpG8kv0Yd"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -978,7 +981,7 @@ function about() {
                               width="200"
                               height="48"
                               decoding="async"
-                              onLoadingComplete={handleImageLoad}
+                              onLoad={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
@@ -1078,7 +1081,7 @@ function about() {
                               width="200"
                               height="48"
                               decoding="async"
-                              onLoadingComplete={handleImageLoad}
+                              onLoad={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
@@ -1093,7 +1096,7 @@ function about() {
                           href="https://colormetta.jsescobar.pro"
                           target="_blank"
                           rel="noreferrer"
-                          aria-label="maderafi"
+                          aria-label="colorMetta"
                         >
                           <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
@@ -1181,11 +1184,11 @@ function about() {
                               width="200"
                               height="48"
                               decoding="async"
-                              onLoadingComplete={handleImageLoad}
+                              onLoad={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                               style={{ color: "transparent" }}
-                              src="https://utfs.io/f/3nPJ2rcd2SU4ZNsERQfPn2O8frmlCbB7M5UNEGFYg1HhxjZy"
+                              src="https://utfs.io/f/3nPJ2rcd2SU4gr6A0RLJwbnaqPHmhT9jVWzSYgyG34sM7r5K"
                             />
                           </div>
                         </a>
