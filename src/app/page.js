@@ -47,18 +47,16 @@ function about() {
                   <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
                     Aerospace & web Engineer
                   </h2>
-                  <div className="justify-center p-2 ml-1">
+                  <div className="justify-center p-2 ">
                     <Image
-                      src={
-                        "https://utfs.io/f/3nPJ2rcd2SU4VziLyXqPJSm2wUBDzhI5OlcvtbYqnrEZ7a6A"
-                      }
-                      height={200}
+                      src={"/JSEV.png"}
+                      height={270}
                       width={200}
                       alt="juancho"
                       onLoad={handleImageLoad}
                       style={{
                         borderRadius: "5px",
-                        height: 200,
+                        height: 270,
                       }}
                     />
                   </div>
@@ -807,7 +805,7 @@ function about() {
                         <a
                           className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
                           aria-label="View Full Résumé"
-                          href="https://utfs.io/f/3nPJ2rcd2SU4fJ1JzTgcWe2xQOfqaXNm4SwzsU6jpG8kv0Yd"
+                          href="https://tqheuy3b23.ufs.sh/f/3nPJ2rcd2SU4p0UioTRTgARzysuKLx92whPrvOG1Ybn5BMkZ"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -890,6 +888,104 @@ function about() {
                   </div>
                   <div>
                     <ul className="group/list">
+                      <li className="mb-12">
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          href="https://soccer.jsescobar.pro/"
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label="Build a Spotify Connected App"
+                        >
+                          <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                            <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                            <div className="z-10 sm:order-2 sm:col-span-6">
+                              <h3>
+                                <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                <span>
+                                  Soccer Ligue , Plan and register
+                                  <span className="inline-block">
+                                    {""}
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        fillRule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clipRule="evenodd"
+                                      ></path>
+                                    </svg>
+                                  </span>
+                                </span>
+                              </h3>
+                              <p className="mt-2 text-sm leading-normal">
+                                The data from you local soccer ligue presented
+                                in an clean structured way plan matches, manage
+                                teams players and referees ass well as you sport
+                                scenarios. register the results to acces team
+                                and player statistics.
+                              </p>
+                              <ul
+                                className="mt-2 flex flex-wrap"
+                                aria-label="Technologies used:"
+                              >
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    S3
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    NextJs
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    Supabase
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    Tailwind
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    Shadcn
+                                  </div>
+                                </li>
+
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    Docker
+                                  </div>
+                                </li>
+                                <li className="mr-1.5 mt-2">
+                                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                    Zustand
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <Image
+                              alt="Delicipes"
+                              loading="lazy"
+                              width="200"
+                              height="68"
+                              decoding="async"
+                              onLoad={handleImageLoad}
+                              data-nimg="1"
+                              className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                              style={{ color: "transparent", height: "110px" }}
+                              src="https://tqheuy3b23.ufs.sh/f/3nPJ2rcd2SU4JkdU33y7MuK10SFx69DosXtPACk5plhTc4Hv"
+                            />
+                          </div>
+                        </a>
+                      </li>
+
                       <li className="mb-12">
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
@@ -979,7 +1075,7 @@ function about() {
                               alt="Delicipes"
                               loading="lazy"
                               width="200"
-                              height="48"
+                              height="68"
                               decoding="async"
                               onLoad={handleImageLoad}
                               data-nimg="1"
@@ -1079,7 +1175,7 @@ function about() {
                               alt=""
                               loading="lazy"
                               width="200"
-                              height="48"
+                              height="68"
                               decoding="async"
                               onLoad={handleImageLoad}
                               data-nimg="1"
@@ -1093,18 +1189,17 @@ function about() {
                       <li className="mb-12">
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://colormetta.jsescobar.pro"
+                          href="https://pvcalculator.jsescobar.pro/"
                           target="_blank"
                           rel="noreferrer"
                           aria-label="colorMetta"
                         >
                           <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                            <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                             <div className="z-10 sm:order-2 sm:col-span-6">
                               <h3>
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
-                                  Color Metta
+                                  Metta Photovoltaics
                                   <span className="inline-block">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1123,34 +1218,15 @@ function about() {
                                 </span>
                               </h3>
                               <p className="mt-2 text-sm leading-normal">
-                                A dynamic landing page designed for a web
-                                development company, showcasing tailored service
-                                packages, from beginner to enterprise-level
-                                plans, making it easy to find the right fit. A
-                                streamlined contact form invites potential
-                                clients to connect, while a visually cohesive
-                                design ensures a seamless and engaging browsing
-                                experience.
+                                Understand and optimize your energy consumption
+                                with our comprehensive suite of tools. Track
+                                energy usage of individual appliances. Visualize
+                                consumption patterns with interactive charts.
+                                Calculate potential savings with
+                                energy-efficient alternatives. Plan solar
+                                installations based on your actual energy needs
                               </p>
-                              {/* <a
-                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                              href="https://maderafi.jsescobar.pro"
-                              target="_blank"
-                              rel="noreferrer"
-                              aria-label="Over 100,000 installs on Visual Studio Code Marketplace"
-                            >
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                className="mr-1 h-4 w-4"
-                                aria-hidden="true"
-                              >
-                                <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
-                                <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
-                              </svg>
-                              <span>Maderafina</span>
-                            </a> */}
+
                               <ul
                                 className="mt-2 flex flex-wrap"
                                 aria-label="Technologies used:"
@@ -1182,13 +1258,17 @@ function about() {
                               alt=""
                               loading="lazy"
                               width="200"
-                              height="48"
+                              height="68"
                               decoding="async"
                               onLoad={handleImageLoad}
                               data-nimg="1"
                               className=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                              style={{ color: "transparent" }}
-                              src="https://utfs.io/f/3nPJ2rcd2SU4gr6A0RLJwbnaqPHmhT9jVWzSYgyG34sM7r5K"
+                              style={{
+                                color: "transparent",
+                                height: "144px",
+                                width: "137px",
+                              }}
+                              src="/solarcalculator.png"
                             />
                           </div>
                         </a>

@@ -3,47 +3,17 @@ import Dashboard from "../components/view-all-images";
 export default function page() {
   const images = [
     {
-      id: 31,
-      url: "https://utfs.io/f/03762607-47de-4f5c-9a47-08dbe630ce41-a2g02k.png",
-      name: "Imperial Studio",
-    },
-    {
-      id: 32,
-      url: "https://utfs.io/f/5f209717-885e-4f23-9710-2745e9fd8c87-yadea5.png",
-      name: "Imperial Studio",
-    },
-
-    {
-      id: 33,
-      url: "https://utfs.io/f/4e217ec2-7382-4aec-b458-e9196b0ae36a-vn29ne.png",
-      name: "Imperial Studio",
-    },
-    {
-      id: 34,
-      url: "https://utfs.io/f/d1cff984-7b81-4a5b-8e70-b730795a87c0-j4gxw2.png",
-      name: "Quotter",
-    },
-    {
       id: 34,
       url: "https://utfs.io/f/af69f868-8e2b-41d1-b33b-f39aed3ff3aa-qwbr1o.png",
       name: "Delicipes",
     },
-    {
-      id: 1,
-      url: "https://utfs.io/f/9a6e54e0-a555-47fc-b5e4-a8f1dd695612-k59w89.png",
-      name: "introduccion fibra de carbono",
-    },
+
     {
       id: 2,
       url: "https://utfs.io/f/2939a735-09fe-40ed-9fef-89d38d131910-k5nxxv.png",
       name: "introduccion fibra de carbono",
     },
 
-    {
-      id: 6,
-      url: "https://utfs.io/f/c17b796c-72cb-43fc-8217-728aafecb9b1-k5oky5.png",
-      name: "introduccion fibra de carbono",
-    },
     {
       id: 7,
       url: "https://utfs.io/f/fafb078b-8740-401a-a503-df2e1a10f6a9-k5putt.png",

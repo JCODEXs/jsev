@@ -3,6 +3,9 @@ const coreConfig = {
   images: {
     remotePatterns: [
       { hostname: "utfs.io" },
+      {
+        hostname: "tqheuy3b23.ufs.sh",
+      },
       { hostname: "udemy-certificate.s3.amazonaws.com" },
     ],
   },
