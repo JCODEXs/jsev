@@ -6,6 +6,9 @@ const coreConfig = {
       {
         hostname: "tqheuy3b23.ufs.sh",
       },
+      {
+        hostname: "mqd2t7385i.ufs.sh",
+      },
       { hostname: "udemy-certificate.s3.amazonaws.com" },
     ],
   },

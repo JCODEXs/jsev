@@ -4,6 +4,19 @@ export default function page() {
   const images = [
     {
       id: 26,
+      url: "https://mqd2t7385i.ufs.sh/f/2k3INuxlIONrdADEE28LXtOekVphNS0KFjfDm7Po9R3w5n4q",
+      name: "Magister en ingenieria ",
+      urlweb: "",
+    },
+    {
+      id: 26,
+      url: "https://mqd2t7385i.ufs.sh/f/2k3INuxlIONrEMtxKUGkP7ALUKT5H4WyvVOC0i2Bob8zdeqN",
+      name: "Ingeniero Mecanico",
+      urlweb: "",
+    },
+
+    {
+      id: 26,
       url: "https://udemy-certificate.s3.amazonaws.com/image/UC-c753bf4a-a968-4644-a753-95b49a6abdaf.jpg",
       name: "Software arquitecture",
       urlweb: "",
@@ -43,6 +56,12 @@ export default function page() {
       id: 26,
       url: "https://udemy-certificate.s3.amazonaws.com/image/UC-d75f797e-54c5-4797-ab8f-cd9da31e6faa.jpg",
       name: "Mongo Db",
+      urlweb: "",
+    },
+    {
+      id: 26,
+      url: "https://mqd2t7385i.ufs.sh/f/2k3INuxlIONrYAdCTJpgpXmvS42f1UENTl8i0zeIaJQ3qMn6",
+      name: "AMDM",
       urlweb: "",
     },
   ];
