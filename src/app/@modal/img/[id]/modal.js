@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { createPortal } from "react-dom";
 import { useSearchParams } from "next/navigation";
-import { revalidatePath } from "next/cache";
 export function Modal({ children }) {
   const router = useRouter();
   const dialogRef = useRef(null);
@@ -36,6 +35,6 @@ export function Modal({ children }) {
       </button>
       {children}
     </dialog>,
-    document.getElementById("modal-root")
+    document.getElementById("modal-root"),
   );
 }
