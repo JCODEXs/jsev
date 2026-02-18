@@ -16,7 +16,7 @@ const projectsData = [
       "Echarts",
     ],
     url: "https://pvcalculator.jsescobar.pro/",
-    image: "/solarCalculator1.png",
+    image: "/SolarCalculator1.png",
     imageAlt: "",
     imageStyle: {
       color: "transparent",
