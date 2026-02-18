@@ -10,9 +10,6 @@ export default function Header({ allImagesLoaded, handleImageLoad }) {
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-3xl">
           <a href="/">Juan S. Escobar</a>
         </h1>
-        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Process and Systems Engineer
-        </h2>
         <div className="mt-4 mb-6 flex justify-center lg:justify-start">
           <Image
             src={"/JSEV.png"}
@@ -23,6 +20,9 @@ export default function Header({ allImagesLoaded, handleImageLoad }) {
             className="rounded-lg w-full max-w-[140px] sm:max-w-[150px] md:max-w-[180px] lg:max-w-[230px] h-auto object-cover"
           />
         </div>
+        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+          Process and Systems Engineer
+        </h2>
         <Navigation />
       </div>
       <SocialMediaLinks />

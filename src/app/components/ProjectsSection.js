@@ -2,12 +2,21 @@ import ProjectItem from "./ProjectItem";
 
 const projectsData = [
   {
-    title: "Metta Photovoltaics",
+    title: "Solar Way",
     description:
       "Understand and optimize your energy consumption with our comprehensive suite of tools. Track energy usage of individual appliances. Visualize consumption patterns with interactive charts. Calculate potential savings with energy-efficient alternatives. Plan solar installations based on your actual energy needs",
-    technologies: ["Once-ui", "NextJs", "Tailwind", "Zod"],
+    technologies: [
+      "chadCn",
+      "NextJs",
+      "Tailwind",
+      "Zod",
+      "Docker",
+      "MongoDB",
+      "SocketIO",
+      "Echarts",
+    ],
     url: "https://pvcalculator.jsescobar.pro/",
-    image: "/solarcalculator.png",
+    image: "/solarCalculator1.png",
     imageAlt: "",
     imageStyle: {
       color: "transparent",
@@ -30,7 +39,7 @@ const projectsData = [
       "Zustand",
     ],
     url: "https://veganplan.jsescobar.pro/",
-    image: "https://utfs.io/f/3nPJ2rcd2SU4S7mGzNhWCYQwmdOVEp4gAlaG6BfKxLjTuHqe",
+    image: "/Delicipese.png",
     imageAlt: "Delicipes",
     imageStyle: { color: "transparent" },
   },
@@ -62,7 +71,7 @@ export default function ProjectsSection({ handleImageLoad }) {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
       aria-label="Selected projects"
     >
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+      <div className="sticky top-0 z-20 -mx-4 mb-4 w-screen bg-slate-900/75 px-4 py-5 backdrop-blur md:-mx-6 md:px-6 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
           Projects
         </h2>

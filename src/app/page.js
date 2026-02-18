@@ -38,7 +38,7 @@ function About() {
                 allImagesLoaded={allImagesLoaded}
                 handleImageLoad={handleImageLoad}
               />
-              <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+              <main id="content" className="pt-24 lg:w-2/3 lg:py-24">
                 <AboutSection />
                 <ExperienceSection />
 
