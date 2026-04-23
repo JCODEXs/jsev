@@ -13,11 +13,11 @@ export default function Header({ allImagesLoaded, handleImageLoad }) {
         <div className="mt-4 mb-6 flex justify-center lg:justify-start">
           <Image
             src={"/JSEV.png"}
-            height={200}
-            width={200}
+            height={160}
+            width={120}
             alt="juancho"
             onLoad={handleImageLoad}
-            className="rounded-lg w-full max-w-[140px] sm:max-w-[150px] md:max-w-[180px] lg:max-w-[230px] h-auto object-cover"
+            className="rounded-lg w-full max-w-[140px] sm:max-w-[150px] md:max-w-[180px] lg:max-w-[160px] h-auto object-cover center"
           />
         </div>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">

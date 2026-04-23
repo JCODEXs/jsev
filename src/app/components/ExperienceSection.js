@@ -1,82 +1,210 @@
 import ExperienceItem from "./ExperienceItem";
 
+// const experienceData = [
+//   {
+//     period: "2023 — Present",
+//     title: "Director",
+//     company: "ColorMetta",
+//     companyUrl: "/archive",
+//     role: "FullStack Engineer",
+//     description:
+//       "Deliver high-quality, robust production code for a diverse array of projects for clients including law firms, wood furniture store, bakery, and events.",
+//     technologies: [
+//       "React",
+//       "Tailwind CSS",
+//       "JavaScript",
+//       "TypeScript",
+//       "NextJs",
+//       "MongoDb",
+//       "Drizle",
+//     ],
+//     links: [
+//       { name: "Solar Calculator", url: "https://pvcalculator.jsescobar.pro/" },
+//       {
+//         name: "Soccer traker",
+//         url: "https://soccer.jsescobar.pro/",
+//       },
+//       { name: "Delicipes", url: "http://veganplan.jsescobar.pro/" },
+//     ],
+//   },
+//   {
+//     period: "June 2022 — October 2023",
+//     title: "FullStack developer",
+//     company: "Imperial Studio",
+//     companyUrl: "https://www.instagram.com/imperialstudio_md/",
+//     role: "FrontEnd Engineer",
+//     description:
+//       "Design, develop, and maintainment a comprehensive dashboard integrating large data APIs and real-time data management systems. This dashboard is utilized for the administration of rooms and the monitoring of employee performance indicators. I have leveraged MongoDB, AWS S3 services, and internal communication tools to ensure a seamless and efficient user experience.",
+//     technologies: ["NextJs", "CSS", "MongoDB", "Docker"],
+//   },
+//   {
+//     period: "November 2021-January 2022",
+//     title:
+//       "Professional services for the support of technical activities of research",
+//     company: "Universidad del valle",
+//     companyUrl: "https://www.univalle.edu.co/",
+//     role: "Research Engineer",
+//     description:
+//       "Preparation of a proposal based on maritime electomobility to apply to investment funds such as MGA y PFAN",
+//   },
+//   {
+//     period: "March 2021 - July de 2021",
+//     title: "3D-Designer",
+//     company: "Parquesoft",
+//     companyUrl: "https://parquesoft.com/",
+//     role: "CAD Engineer",
+//     description:
+//       "Create detailed 2D drawings for each part, including dimensions, tolerances, and material specifications,Create exploded views and assembly instructions,For sheet metal components, create flat patterns and specify bending operations.",
+//     technologies: ["Solid Works", "Ansys"],
+//   },
+//   {
+//     period: "January 2019- July 2019",
+//     title: "Projects Manager",
+//     company: "UET Ingenieria",
+//     companyUrl: "https://uetingenieria.com/",
+//     role: "Projects Engineer",
+//     description:
+//       "Led a team of 10 in the successful completion of a several projects, delivering on time and within budget. Developed project plans, timelines, and budgets, ensuring alignment with business objectives. Coordinated with stakeholders. Utilized project management software to monitor progress and manage resources efficiently.",
+//   },
+//   {
+//     period: "August 2011-February 2015",
+//     title: "Sales Engineer",
+//     company: "Reyser ltda",
+//     companyUrl: "https://jsescobar.pro",
+//     role: "Power trasmission expert",
+//     description:
+//       "Design and assembly of electromechanical systems. selection and adaptation of power transmission systems,Conducted product demonstrations and presentations to potential clients. Managed a portfolio of 15+ clients, providing exceptional customer service and support.",
+//   },
+// ];
 const experienceData = [
   {
     period: "2023 — Present",
-    title: "Director",
+    title: "Lead Full-Stack Engineer & Founder",
     company: "ColorMetta",
     companyUrl: "/archive",
-    role: "FullStack Engineer",
-    description:
-      "Deliver high-quality, robust production code for a diverse array of projects for clients including law firms, wood furniture store, bakery, and events.",
+    role: "Technical Lead",
+    descriptionEN:
+      "Architecting and deploying mission-critical web applications for a diverse client base. Specializing in high-performance dashboards, real-time data synchronization, and automated business workflows that bridge the gap between complex data and user-centric interfaces.",
+    descriptionES:
+      "Arquitectura y despliegue de aplicaciones web de misión crítica. Especializado en paneles de control de alto rendimiento, sincronización de datos en tiempo real y flujos de trabajo automatizados.",
     technologies: [
-      "React",
-      "Tailwind CSS",
-      "JavaScript",
+      "Next.js",
       "TypeScript",
-      "NextJs",
-      "MongoDb",
-      "Drizle",
+      "Drizzle ORM",
+      "Node.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Tailwind CSS",
+    ],
+    capabilities: [
+      "System Architecture",
+      "B2B SaaS Development",
+      "Real-time Operations",
     ],
     links: [
-      { name: "Solar Calculator", url: "https://pvcalculator.jsescobar.pro/" },
-      {
-        name: "Soccer traker",
-        url: "https://soccer.jsescobar.pro/",
-      },
-      { name: "Delicipes", url: "http://veganplan.jsescobar.pro/" },
+      { name: "Solar Analytics", url: "https://pvcalculator.jsescobar.pro/" },
+      { name: "Soccer Logistics", url: "https://soccer.jsescobar.pro/" },
+      { name: "Recipe Automation", url: "http://veganplan.jsescobar.pro/" },
     ],
   },
   {
-    period: "June 2022 — October 2023",
-    title: "FullStack developer",
+    period: "2022 — 2023",
+    title: "Full-Stack Developer",
     company: "Imperial Studio",
     companyUrl: "https://www.instagram.com/imperialstudio_md/",
-    role: "FrontEnd Engineer",
-    description:
-      "Design, develop, and maintainment a comprehensive dashboard integrating large data APIs and real-time data management systems. This dashboard is utilized for the administration of rooms and the monitoring of employee performance indicators. I have leveraged MongoDB, AWS S3 services, and internal communication tools to ensure a seamless and efficient user experience.",
-    technologies: ["NextJs", "CSS", "MongoDB", "Docker"],
+    role: "Systems Engineer",
+    descriptionEN:
+      "Engineered a high-performance administrative command center integrating large-scale data APIs. Developed real-time monitoring systems for employee KPIs and facility management, leveraging AWS S3 and automated internal communication protocols to optimize operational efficiency.",
+    descriptionES:
+      "Desarrollo de un centro de mando administrativo de alto rendimiento integrando APIs de datos a gran escala y sistemas de monitoreo en tiempo real para KPIs y gestión de instalaciones.",
+    technologies: ["Next.js", "MongoDB", "AWS S3", "Docker", "REST APIs"],
+    capabilities: [
+      "KPI Dashboards",
+      "Resource Monitoring",
+      "Cloud Infrastructure",
+    ],
   },
   {
-    period: "November 2021-January 2022",
-    title:
-      "Professional services for the support of technical activities of research",
-    company: "Universidad del valle",
+    period: "2021 — 2022",
+    title: "Research Engineer",
+    company: "Universidad del Valle",
     companyUrl: "https://www.univalle.edu.co/",
-    role: "Research Engineer",
-    description:
-      "Preparation of a proposal based on maritime electomobility to apply to investment funds such as MGA y PFAN",
+    role: "Technical Strategist",
+    descriptionEN:
+      "Conducted technical feasibility studies and strategic planning for maritime electromobility projects. Developed rigorous technical proposals for international investment funds (MGA & PFAN), focusing on sustainable energy infrastructure and systems analysis.",
+    descriptionES:
+      "Estudios de viabilidad técnica y planificación estratégica para proyectos de electromovilidad marítima. Desarrollo de propuestas técnicas para fondos de inversión internacionales.",
+    technologies: [
+      "Technical Documentation",
+      "Financial Modeling",
+      "Systems Analysis",
+    ],
+    capabilities: [
+      "Investment Proposals",
+      "Strategic Research",
+      "Energy Systems",
+    ],
   },
   {
-    period: "March 2021 - July de 2021",
-    title: "3D-Designer",
+    period: "2021",
+    title: "Mechanical Systems Designer",
     company: "Parquesoft",
     companyUrl: "https://parquesoft.com/",
     role: "CAD Engineer",
-    description:
-      "Create detailed 2D drawings for each part, including dimensions, tolerances, and material specifications,Create exploded views and assembly instructions,For sheet metal components, create flat patterns and specify bending operations.",
-    technologies: ["Solid Works", "Ansys"],
+    descriptionEN:
+      "Specialized in high-precision structural design and manufacturing blueprints. Engineered complex assembly instructions and flat patterns for sheet metal components, ensuring strict adherence to industrial tolerances and material specifications.",
+    descriptionES:
+      "Diseño estructural de alta precisión y planos de fabricación. Ingeniería de instrucciones de ensamblaje complejas y patrones para componentes metálicos bajo tolerancias industriales.",
+    technologies: ["SolidWorks", "Ansys", "CAD/CAM"],
+    capabilities: [
+      "Precision Engineering",
+      "Structural Design",
+      "Manufacturing Logistics",
+    ],
   },
   {
-    period: "January 2019- July 2019",
+    period: "2019",
     title: "Projects Manager",
     company: "UET Ingenieria",
     companyUrl: "https://uetingenieria.com/",
-    role: "Projects Engineer",
-    description:
-      "Led a team of 10 in the successful completion of a several projects, delivering on time and within budget. Developed project plans, timelines, and budgets, ensuring alignment with business objectives. Coordinated with stakeholders. Utilized project management software to monitor progress and manage resources efficiently.",
+    role: "Operations Lead",
+    descriptionEN:
+      "Directed multi-disciplinary engineering teams of 10+ members. Managed end-to-end project lifecycles, ensuring strict alignment with budgets and business objectives through rigorous resource optimization and stakeholder coordination.",
+    descriptionES:
+      "Dirección de equipos multidisciplinarios de ingeniería. Gestión del ciclo de vida completo de proyectos, optimización de recursos y coordinación de stakeholders.",
+    technologies: [
+      "Project Management Software",
+      "Agile Methodologies",
+      "Resource Planning",
+    ],
+    capabilities: [
+      "Team Leadership",
+      "Budget Optimization",
+      "Stakeholder Management",
+    ],
   },
   {
-    period: "August 2011-February 2015",
-    title: "Sales Engineer",
-    company: "Reyser ltda",
+    period: "2011 — 2015",
+    title: "Sales & Applications Engineer",
+    company: "Reyser Ltda",
     companyUrl: "https://jsescobar.pro",
-    role: "Power trasmission expert",
-    description:
-      "Design and assembly of electromechanical systems. selection and adaptation of power transmission systems,Conducted product demonstrations and presentations to potential clients. Managed a portfolio of 15+ clients, providing exceptional customer service and support.",
+    role: "Power Transmission Specialist",
+    descriptionEN:
+      "Technical lead in the design and assembly of electromechanical power transmission systems. Provided specialized consulting for industrial automation and mechanical adaptation for a portfolio of 15+ enterprise clients.",
+    descriptionES:
+      "Líder técnico en el diseño y ensamble de sistemas electromecánicos de transmisión de potencia. Consultoría especializada en automatización industrial.",
+    technologies: [
+      "Electromechanical Systems",
+      "Industrial Automation",
+      "Technical Sales",
+    ],
+    capabilities: [
+      "Industrial Consulting",
+      "Technical Presentations",
+      "Client Relations",
+    ],
   },
 ];
-
 export default function ExperienceSection() {
   return (
     <section

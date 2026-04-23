@@ -40,6 +40,28 @@ function About() {
               />
               <main id="content" className="pt-24 lg:w-2/3 lg:py-24">
                 <AboutSection />
+                <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div className="rounded border border-slate-700/50 p-4">
+                      <h3 className="text-teal-300 font-medium">
+                        Real-time Dashboards
+                      </h3>
+                      <p className="text-sm">
+                        High-performance data viz for live operational
+                        monitoring.
+                      </p>
+                    </div>
+                    <div className="rounded border border-slate-700/50 p-4">
+                      <h3 className="text-teal-300 font-medium">
+                        Process Automation
+                      </h3>
+                      <p className="text-sm">
+                        Streamlining logistics and backend workflows to reduce
+                        human error.
+                      </p>
+                    </div>
+                  </div>
+                </section>
                 <ExperienceSection />
 
                 <ProjectsSection handleImageLoad={handleImageLoad} />

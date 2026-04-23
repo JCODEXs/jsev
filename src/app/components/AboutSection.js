@@ -10,93 +10,43 @@ export default function AboutSection() {
           About
         </h2>
       </div>
-      <div>
+      <div className="text-slate-400">
         <p className="mb-4">
-          From Mechanical Systems to Software Architecture. I'm a full-stack
-          developer who builds the digital machinery that powers businesses. I
-          use React, Next.js, and a full suite of modern tools to create
-          applications that handle complex tasks—from automated legal docs and
-          data analytics to integrated e-commerce and internal tools.some of my
-          work can be found in the {""}
-          <a
-            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-            href="#projects"
-          >
-            Projects
-          </a>
-          .
+          I bridge the gap between{" "}
+          <span className="text-slate-200">Mechanical Engineering</span> and{" "}
+          <span className="text-slate-200">Software Architecture</span>. My
+          background in designing physical systems has shaped how I write code:
+          I don't just build apps; I architect digital machinery that is robust,
+          predictable, and built to scale.
         </p>
+
         <p className="mb-4">
-          My engineering background means I don't just code; I architect
-          solutions that are robust, scalable, and efficient. .{""}
+          Today, I specialize in developing the{" "}
+          <span className="text-teal-300">command centers</span> and{" "}
+          <span className="text-teal-300">automation pipelines</span> that power
+          modern enterprises. Whether it’s real-time dashboards for the events
+          industry, high-precision solar modeling, or complex logistics
+          trackers, I focus on turning chaotic data into streamlined, actionable
+          insights.
         </p>
+
+        <p className="mb-4">
+          Behind every minimalist, high-performance interface I build lies a
+          clean, type-safe backend designed for{" "}
+          <span className="text-slate-200">maximum uptime and reliability</span>
+          —the same principles I applied when designing electromechanical
+          systems.
+        </p>
+
         <p>
-          What I'm exploring next: The principles of Web3 and blockchain to
-          create a more transparent and interconnected digital future {""}
-          <span className="group/bitcoin inline-flex  lg:font-medium lg:text-slate-200">
-            <span className="sr-only">BitCoin</span>
-            <span
-              className="group-hover/bitcoin:text-orange-400 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[50ms]"
-              aria-hidden="true"
-            >
-              B
-            </span>
-            <span
-              className="group-hover/bitcoin:text-orange-400 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[75ms]"
-              aria-hidden="true"
-            >
-              l
-            </span>
-            <span
-              className="group-hover/bitcoin:text-white transition duration-75 group-hover/bitcoin:-translate-y-px delay-[100ms]"
-              aria-hidden="true"
-            >
-              o
-            </span>
-            <span
-              className="group-hover/bitcoin:text-white transition duration-75 group-hover/bitcoin:-translate-y-px delay-[125ms]"
-              aria-hidden="true"
-            >
-              c
-            </span>
-            <span
-              className="group-hover/bitcoin:text-gray-700 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[150ms]"
-              aria-hidden="true"
-            >
-              k
-            </span>
-            <span
-              className="group-hover/bitcoin:text-gray-700 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[175ms]"
-              aria-hidden="true"
-            >
-              c
-            </span>
-            <span
-              className="group-hover/bitcoin:text-blue-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[200ms]"
-              aria-hidden="true"
-            >
-              h
-            </span>
-            <span
-              className="group-hover/bitcoin:text-blue-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[225ms]"
-              aria-hidden="true"
-            >
-              a
-            </span>
-            <span
-              className="group-hover/bitcoin:text-green-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[250ms]"
-              aria-hidden="true"
-            >
-              i
-            </span>
-            <span
-              className="group-hover/bitcoin:text-green-500 transition duration-75 group-hover/bitcoin:-translate-y-px delay-[275ms]"
-              aria-hidden="true"
-            >
-              n
-            </span>
-          </span>
-          .
+          Outside of the terminal, I balance technical rigor with movement and
+          focus. Whether I’m navigating the complex rhythms of{" "}
+          <span className="text-slate-200">salsa</span>, applying strategic
+          discipline on the <span className="text-slate-200">tennis court</span>
+          , or finding mental clarity through{" "}
+          <span className="text-slate-200 font-medium">meditation</span>, I
+          believe that high performance—in code or in life—comes from a state of
+          total presence and flow.
         </p>
       </div>
     </section>
