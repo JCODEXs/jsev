@@ -15,7 +15,6 @@ export default function ProjectItem({ project, handleImageLoad, lang = "EN" }) {
     imageStyle,
   } = project;
 
-  // Selección de idioma (puedes pasarle el estado de tu app)
   const description = lang === "EN" ? descriptionEN : descriptionES;
 
   return (
@@ -27,14 +26,14 @@ export default function ProjectItem({ project, handleImageLoad, lang = "EN" }) {
         rel="noreferrer"
         aria-label={title}
       >
-        {/* Efecto de fondo al hacer hover (Glassmorphism) */}
+        {/* Main Container: Notice the group-hover/list opacity interaction */}
         <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+          {/* Glassmorphism Background Highlight */}
           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
 
-          {/* COLUMNA DE TEXTO (Derecha) */}
+          {/* COLUMN: TEXT (Right) */}
           <div className="z-10 sm:order-2 sm:col-span-5">
             <header className="flex flex-col gap-1">
-              {/* TAGS DE INDUSTRIA (Nicho) */}
               <div className="flex gap-2 mb-1">
                 {tags?.map((tag, i) => (
                   <span
@@ -69,7 +68,6 @@ export default function ProjectItem({ project, handleImageLoad, lang = "EN" }) {
               {description}
             </p>
 
-            {/* CAPABILITIES (Valores agregados) */}
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
               {capabilities?.map((cap, i) => (
                 <span
@@ -81,30 +79,33 @@ export default function ProjectItem({ project, handleImageLoad, lang = "EN" }) {
                 </span>
               ))}
             </div>
-
-            {/* TECNOLOGÍAS (Stack) */}
-            {/* <ul
-              className="mt-4 flex flex-wrap gap-1.5"
-              aria-label="Technologies used:"
-            >
-              {technologies.map((tech, index) => (
-                <TechnologyTag key={index} technology={tech} />
-              ))}
-            </ul> */}
           </div>
 
-          {/* IMAGEN (Izquierda) */}
-          <div className="z-10 sm:order-1 sm:col-span-3">
-            <Image
-              alt={imageAlt || title}
-              loading="lazy"
-              width="200"
-              height="112"
-              onLoad={handleImageLoad}
-              className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:translate-y-1"
-              style={imageStyle}
-              src={image}
-            />
+          {/* COLUMN: IMAGE (Left) - THE POP-OUT SECTION */}
+          <div className="z-15 sm:order-1 sm:col-span-3">
+            {/* 
+      1. We remove overflow-hidden from the container 
+      2. We add group-hover/link:z-50 so the image stays on top of everything else
+  */}
+            <div className="relative h-full w-full transition-all duration-300 group-hover/link:z-50">
+              <Image
+                alt={imageAlt || title}
+                loading="lazy"
+                width="200"
+                height="112"
+                onLoad={handleImageLoad}
+                className="rounded border-2 border-slate-200/10 
+                 transition-all duration-500 ease-out 
+                 /* The magic happens here */
+                 group-hover/link:scale-150
+                 group-hover/link:rotate-[-2deg] 
+                 group-hover/link:border-teal-400/50 
+                 group-hover/link:shadow-[0_20px_50px_rgba(0,0,0,0.5)]
+                 group-hover/link:drop-shadow-[0_0_15px_rgba(45,212,191,0.3)]"
+                style={imageStyle}
+                src={image}
+              />
+            </div>
           </div>
         </div>
       </a>

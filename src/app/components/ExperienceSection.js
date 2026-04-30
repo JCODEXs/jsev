@@ -88,16 +88,18 @@ const experienceData = [
     descriptionES:
       "Arquitectura y despliegue de aplicaciones web de misión crítica. Especializado en paneles de control de alto rendimiento, sincronización de datos en tiempo real y flujos de trabajo automatizados.",
     technologies: [
-      "Next.js",
+      "Next.js 15",
+      "OpenAI SDK",
+      "Claude CLI",
+      "PostgreSQL & Drizzle, MongoDb", // Grouped Database
+      "C++ (Godot Engine)", // Game/Systems
+      "React Native (Expo)", // Mobile
       "TypeScript",
-      "Drizzle ORM",
-      "Node.js",
-      "MongoDB",
-      "PostgreSQL",
-      "Tailwind CSS",
     ],
     capabilities: [
-      "System Architecture",
+      "AI-Agentic Workflows",
+      "Cross-Platform Logistics (Android/iOS)",
+      "High-Performance System Architecture",
       "B2B SaaS Development",
       "Real-time Operations",
     ],
@@ -105,6 +107,23 @@ const experienceData = [
       { name: "Solar Analytics", url: "https://pvcalculator.jsescobar.pro/" },
       { name: "Soccer Logistics", url: "https://soccer.jsescobar.pro/" },
       { name: "Recipe Automation", url: "http://veganplan.jsescobar.pro/" },
+      { name: "Body Healt", url: "https://mytemple-three.vercel.app" },
+      {
+        name: "Fast Inventory",
+        url: "http://https://inventory-rho-two.vercel.app.jsescobar.pro/",
+      },
+      {
+        name: "Art Gallery",
+        url: "http://https://showart-fawn.vercel.app/",
+      },
+      {
+        name: "Economic Analisis",
+        url: "https://rental-insights.vercel.app/",
+      },
+      {
+        name: "Interactive Quotes",
+        url: "https://rental-insights.vercel.app/",
+      },
     ],
   },
   {

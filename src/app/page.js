@@ -14,7 +14,7 @@ function About() {
     setLoadedCount((prevCount) => prevCount + 1);
   };
 
-  const allImagesLoaded = loadedCount === 4;
+  const allImagesLoaded = loadedCount > 9;
   return (
     <primal className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
       <div id="__next">

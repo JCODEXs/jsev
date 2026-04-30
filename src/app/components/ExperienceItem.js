@@ -32,7 +32,7 @@ export default function ExperienceItem({ experience, lang = "EN" }) {
         </header>
 
         {/* COLUMNA DE CONTENIDO (Derecha) */}
-        <div className="z-10 sm:col-span-6">
+        <div className="z-10 sm:col-span-6 group">
           <h3 className="font-medium leading-snug text-slate-200">
             <div>
               <a
@@ -124,11 +124,16 @@ export default function ExperienceItem({ experience, lang = "EN" }) {
           {/* TECNOLOGÍAS */}
           {technologies.length > 0 && (
             <ul
-              className="mt-4 flex flex-wrap gap-1.5"
+              className=" group mt-4 flex flex-wrap gap-1.5"
               aria-label="Technologies used"
             >
               {technologies.map((tech, index) => (
-                <TechnologyTag key={index} technology={tech} />
+                <TechnologyTag
+                  key={index}
+                  technology={tech}
+                  // Pass index to handle staggered animation
+                  index={index}
+                />
               ))}
             </ul>
           )}
