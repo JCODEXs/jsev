@@ -323,6 +323,38 @@ const projectsData = [
     url: "https://veganplan.jsescobar.pro/",
     image: "/Delicipese.png",
   },
+
+  {
+    title: "ShowArt",
+    descriptionEN:
+      "ShowArt is an immersive digital art gallery platform that transforms traditional art viewing into an interactive, sensory experience. It features dynamic virtual exhibitions, real-time data-driven art installations, and personalized thematic tours, bridging the gap between classic masterpieces and modern technology.",
+    descriptionES:
+      "ShowArt es una plataforma de galería de arte digital inmersiva que transforma la visión tradicional del arte en una experiencia interactiva y sensorial. Ofrece exposiciones virtuales dinámicas, instalaciones artísticas basadas en datos en tiempo real y recorridos temáticos personalizados, tendiendo un puente entre las obras maestras clásicas y la tecnología moderna.",
+    technologies: [
+      "Next.js",
+      "UploadThing",
+      "MongoDB",
+      "Clerk Auth",
+      "Zustand",
+      "Three js",
+      "Vercel",
+    ],
+    capabilities: [
+      "Immersive Art Curation",
+      "Interactive Virtual Galleries",
+      "Personalized Art Tours",
+      "Digital Artifact Management",
+    ],
+    tags: [
+      "Digital Art",
+      "Virtual Gallery",
+      "Immersive Experience",
+      "Art Tech",
+      "Interactive Design",
+    ],
+    url: "https://showart-fawn.vercel.app/",
+    image: "/Artshow.png",
+  },
   {
     title: "Rental Insights",
     descriptionEN:
